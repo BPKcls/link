@@ -1,2 +1,2 @@
 # link
-https://BPKcls.github.io/link/index.html
+https://BPKcls.github.io/link/help
