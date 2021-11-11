@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="UTF-8">
+  <title>qqq</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+html, body{height: 100%}
+
+body{
+ background-image:  url("https://ip-calculator.ru/blog/wp-content/uploads/2018/09/sydney-computer-networking-services.png");
+ background-color: rgb(255, 255, 255);
+ background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 70%;
+ color: #fff;
+}
+
+.wrapper{
+ width: 1400px;
+ min-height: 100%;
+ margin: auto;
+ background: url(bg.jpg);
+}
+
+.header{
+  border-radius: 5px;
+ position: relative;
+ margin-top: 20px;
+ height: 75px;
+ width: 100%;
+ background-image: url("logo.png");
+
+}
+
+.left{
+    background: rgb(49, 60, 216);
+    color: #000;
+    border-radius: 5px;
+ width: 100px;
+ float: left;
+}
+
+.content{
+background: rgba(255, 255, 255, 0.507);
+ width: 1200px;
+ margin-left: 130px;
+ margin-top: 20px;
+ color: rgb(0, 0, 0);
+ float: center center;
+ font-size: 25px;
+
+}
+
+.footer{
+ height: 40px;
+ background: rgb(31, 41, 179);
+ border-radius: 5px;
+ width: 1400px;
+ 
+ margin: -40px auto 0;
+}
+
+.clear{clear: both;}
+.rasporka{height: 40px;}
+
+p{padding: 10px;
+
+}
+
+.buttonNav{
+  position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 65px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: ;
+    text-decoration: none;
+    font-style: 'Roboto';
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.buttonNav:hover {
+    color: #4d4b4b;
+    background: #98cdf8;
+    box-shadow: 0 0 10px #91ccfd, 0 0 40px #91ccfd, 0 0 80px #91ccfd;
+    transition-delay: 1s;
+}
+.buttonNav span {
+    position: absolute;
+    display: block;
+}
+span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#c7e2f8);
+}
+.buttonNav:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+.buttonNav:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+.buttonNav:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+.buttonNav:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+.tab{
+  margin-bottom: 50px;
+}
+  </style>
+ </head>
+ <body>
+ 
+<div class="wrapper">
+    <div class="header">
+      <div class="buttonNavig">
+        <a class="buttonNav">
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          Главная
+        </a>
+
+        <a class="buttonNav">
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          <b>
+            Онлайн-конференции
+            </b>
+        </a>
+
+        <a class="buttonNav"><span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Тарифы
+        </a>
+
+        <a class="buttonNav"><span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Вход
+        </a>
+
+        <a class="buttonNav"><span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Регистрация
+        </a>
+           
+      </div>
+    </div>
+    <div class="left">
+     qqqqq
+     <div class="content">
+
+        <center><b>Описание</b></center>
+        <hr>
+Создание единого офисного онлайн-пространства на основе платформы для проведения онлайн-конференций CLS Stream Service (cls-stream.com) :<br>
+
+Эта услуга предполагает быстрый перевод работы сотрудников офиса в онлайн-формат<br>
+
+<b>План работ:</b><br>
+<ul>
+  <il>Определение физической и IT - инфраструктуры единого рабочего онлайн-пространства компании (централизованное или  децентрализованное подключение)</il>
+  <il>Определение тарификации подключения  по    CLS Stream Service (cls-stream.com )</il>
+  <il>Подбор оборудования для создания единого офисного онлайн-пространства</il>
+  <il>Установка и настройка оборудования в офисе ( активный микрофон, компьютер, монитор / жк-телевизор, веб-камера)</il>
+</ul>
+<br>
+
+<b>Услуга :</b>
+<br>
+"Централизованный офис " - Концепция единого рабочего офисного онлайн-пространства, когда имеется кадровое "ядро"  компании, состоящее из управленческого персонала и ключевых сотрудников в физическом офисном помещении, а часть сотрудников работает удаленно.
+<br>
+<b>Особенности работы и технические возможности:</b><br>
+<ol>
+  <il>Централизованный офис в рамках одной или нескольких одновременно запущенных онлайн-конференций имеет возможность быть на "спикер"- и видео-связи с сотрудниками, находящимся в любой географической  точке мира в режиме онлайн в течение всего рабочего  времени (до  24 часов в сутки)
+  </il>
+  <il>Все удаленные сотрудники с высоким уровнем качества могут слышать ( видеть ) все, что происходит в офисном помещении в онлайн-формате.
+  </il>
+  <il>Любой сотрудник, находящийся в офисном помещении,  имеет  возможность не выходя с рабочего места без индивидуального подключения к конференции в онлайн-режиме общаться с любым удаленным сотрудником, а так же слышать любого удаленного  сотрудника со своего рабочего места. 
+  </il>
+</ol>
+<br>
+ 
+<br>
+<b>Требования и ограничения:</b><br> 
+<ul>
+  <il>Удаленный сотрудник должен находиться на своем удаленном рабочем месте либо в помещении с устройством , подключенным к онлайн-конференции.</il>
+  <il>Площадь офисного  помещения "ядра" компании для необходимого качества работы и качественной слышимости удаленным сотрудникам речи сотрудников центрального офиса должно не превышать 100 квадратных метров. 
+  </il>
+  <il>Удаленные сотрудники должны должны работать через аудио-гарнитуру (наушники и микрофон) либо с выключенным микрофоном . Работающие колонки могут  создавать чувствительный для качества связи уровень эхолокации
+  </il>
+</ul>
+<br>
+
+<b>Необходимая техника и устройства в офисе компании:</b>
+<ul>
+  <il>В офисе компании: ЖК-телевизор ( с технической возможностьью доступа в Интернет)  или монитор, системный блок с установленной операционной системой (Ubuntu, Linux, Windows) активный микрофон, web-камера ( по желанию). 
+  </il>
+  <il>У удаленного сотрудника</il>
+</ul>
+<br> 
+
+
+<b>Стоимость услуги ,(без стоимости необходимого оборудования) составляет:  1500 BYN</b>
+<br>
+<b>Стоимость базового набора оборудования (необходимого и достаточного для работы)   централизованного офиса - от 350 USD.</b>
+<br>
+<br>
+<b>Услуга :</b>
+<ul>
+  <il>"Сетевая организация"</il>
+</ul>
+<br>
+
+<b>Тарифы и ограничения :</b>
+<br>
+CLS Stream Service рассчитан на бизнес и коллективное платное использование. Тарификация предполагается с<br>
+ лимитированием/ регулированием следующих элементов функций:<br>
+количество участников онлайн-конференций<br>
+возможность/невозможность записи онлайн-конференций<br>
+Возможность скачивания видео<br>
+Возможность предоставления права просматривать видео<br>
+ <br>
+ <table class="tab">
+   <tr>
+   <td style="padding-top: 10px;">Опции</td><td style="padding-left: 20px">Тариф-1</td><td style="padding-left: 20px">Тариф-2</td><td style="padding-left: 20px">Тариф-3</td>
+   </tr>
+   <tr>
+    <td  style="padding-top: 10px;">Максимальное количество участников</td><td style="padding-left: 20px">10</td><td style="padding-left: 20px">35</td><td style="padding-left: 20px">100</td>
+    </tr>
+    <tr>
+      <td  style="padding-top: 10px;">Запись онлайн-конференции</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+      </tr>
+      <tr>
+        <td  style="padding-top: 10px;">Скачивание записи онлайн-конференции</td><td style="padding-left: 20px">-</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+        </tr>
+        <tr>
+          <td  style="padding-top: 10px;">Предоставление права скачивания онлайн-конференции ее участникам</td><td style="padding-left: 20px">-</td><td style="padding-left: 20px">-</td><td style="padding-left: 20px">+</td>
+          </tr>
+          <tr>
+            <td  style="padding-top: 10px;">Просмотр записи онлайн-конференции</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+            </tr>
+            <tr>
+              <td  style="padding-top: 10px;">редоставление права просмотра онлайн-конференции ( своим участникам)</td><td style="padding-left: 20px">-</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+              </tr>
+              <tr>
+                <td  style="padding-top: 10px;">Загрузка и демонстрация презентации</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+                </tr>
+                <tr>
+                  <td  style="padding-top: 10px;">Интерактивная доска</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+                  </tr>
+                  <tr>
+                    <td  style="padding-top: 10px;">Совместный просмотр видео по ссылке с других источников ( You Tube)</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+                    </tr>
+                    <tr>
+                      <td  style="padding-top: 10px;">Файловое хранилище онлайн-конференции</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td><td style="padding-left: 20px">+</td>
+                      </tr>
+                      <tr>
+                        <td  style="padding-top: 10px;">Тестовый период</td><td style="padding-left: 20px">5 дней</td><td style="padding-left: 20px">5 дней</td><td style="padding-left: 20px">5 дней</td>
+                        </tr>
+                        <tr>
+                          <td  style="padding-top: 10px;"></td><td></td><td></td><td></td>
+                          </tr>
+                          <tr>
+                            <td  style="padding-top: 10px;">1 месяц</td><td style="padding-left: 20px">10$</td><td style="padding-left: 20px">20$</td><td style="padding-left: 20px">35$</td>
+                            </tr>
+                            <tr>
+                              <td  style="padding-top: 10px;">4 месяца</td><td style="padding-left: 20px">35$</td><td style="padding-left: 20px">72$</td><td style="padding-left: 20px">125$</td>
+                              </tr>
+                              <tr>
+                                <td  style="padding-top: 10px;">9 месяцев</td><td style="padding-left: 20px">70$</td><td style="padding-left: 20px">145$</td><td style="padding-left: 20px">250$</td>
+                                </tr>
+      
+ </table>
+
+     </div>
+    </div>
+    <div class="clear"></div>
+    <div class="rasporka"></div>
+   </div>
+   </div>
+   <div class="footer">© 2021 Cyber Learn Systems LLC</div>
+   
+    </body>
+    </html>
