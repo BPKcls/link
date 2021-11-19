@@ -1,0 +1,400 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+ <html>
+ <head>
+  <link rel="shortcut icon" href="logoUp.png" type="image/png">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Перевод работы в онлайн-формат и создание  единого офисного  онлайн-пространства на основе CLS STREAM SERVICE</title>
+  <style type="text/css">
+   BODY {
+    font-family: Verdana, Arial, sans-serif; /* Рубленый шрифт на странице */
+    background-image: url('bglog.png') ;
+   }
+   #top { /* Верхняя часть с заголовком страницы */
+    background-image: url('logo11.png'); /* Цвет фона */
+    border: solid 1px black; /* Параметры рамки  */
+    height: 70px;
+    padding: 15px 0 15px 10px; /* Поля вокруг текста */
+    margin-bottom: 15px; /* Расстояние между заголовком и колонками */
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: black; /* Цвет символов */
+   }
+   #menu { /* Навигация по сайту */
+    width: 76px; /* Ширина меню */
+    background-image: url('left.png'); /* Цвет фона */
+    border: solid 1px black; /* Параметры рамки */
+    float: left; /* Состыковка с другим слоем по горизонтали */
+    padding: 3px; /* Поля вокруг текста */
+    max-height: 7000px;
+    margin-left: -11px;
+    min-height: 5220px;
+    height: 1000%;
+   }
+   #menu A { /* Ссылки в меню */
+    font-size: 90%; /* Размер текста */
+   }
+   #content { /* Основное содержание страницы */
+    background: #ffffff7e; /* Цвет фона */
+    border: none; /* Параметры рамки */
+    margin-left: 115px; /* Отступ слева */
+    margin-bottom: 15px /* Отступ снизу */
+    
+   }
+   #bottom { /* Нижняя часть */
+    background-image: url('podval.png'); /* Цвет фона */
+    height: 130px;
+    margin-left: -11px;
+    border: solid 1px black; /* Параметры рамки */
+    font-size: 90%; /* Размер шрифта */
+    padding: 3px; /* Поля вокруг текста */
+   }
+   H1 { /* Заголовок страницы */
+    text-align: center; /* Выравнивание по центру */
+    font-size: 210%; /* Размер шрифта */
+    font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */ 
+    font-weight: normal; /* Нормальное начертание */
+    color: black; /* Цвет текста */
+    padding: 0; /* Убираем значение полей */
+    margin: 0; /* Обнуляем значения отступов */ 
+   }
+   #content P { 
+    font-size: 90%; /* Размер шрифта */
+    text-align: justify; /* Выравнивание по ширине */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 0 /* Обнуляем отступы */
+   }
+
+   .button1{
+        margin-top: 5px;
+        margin-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 65px;
+        background: none;
+        border: none;
+        cursor: pointer;
+}
+
+
+.button2{
+        margin-left: 230px;
+        margin-right: 10px;
+        background: none;
+        font-family:Impact, 'Arial Narrow Bold', sans-serif;
+        font: bold;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+
+.button3{
+        margin-right: 10px;
+        background: none;
+        font-family:Impact,'Arial Narrow Bold', sans-serif;
+        font: bold;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+
+.button4{
+        margin-right: 10px;
+        background: none;
+        font-family:Impact, 'Arial Narrow Bold', sans-serif;
+        font: bold;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+
+.button5{
+        margin-right: 10px;
+        background: none;
+        font-family:Impact, 'Arial Narrow Bold', sans-serif;
+        font: bold;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+
+.button6{
+        margin-right: 10px;
+        background: none;
+        font-family:Impact, 'Arial Narrow Bold', sans-serif;
+        font: bold;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+
+.button7{
+        margin-right: 10px;
+        background: none;
+        font-family:Impact, 'Arial Narrow Bold', sans-serif;
+        font: bold;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+
+   .button8 {
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(243, 2, 2, 0.856);
+            border-radius: 5px;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            border: 1px solid #030303;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: 300px;
+            height: 50px;
+        }
+        
+        .button8:hover {
+            background-color: #ac0000;
+            color: white;
+            border: 1px solid rgb(0, 0, 0);
+            ;
+        }
+        
+        .button8:active {
+            background-color: #ac0000;
+            box-shadow: 0px 0px 15px 15px rgb(255, 72, 0);
+            transform: translateY(4px);
+        }
+
+        img{
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+p{
+  font-family:Tahoma;
+  font-size: 22px;
+  color: #303030;
+}
+ul{
+  font-family:Tahoma;
+  font-size: 15px;
+  color: #303030;
+}
+
+ol{
+  font-family:Tahoma;
+  font-size: 15px;
+  color: #303030;
+}
+  </style>
+ </head>
+ <body>
+  <div id="top"><div class="header">
+    
+      <a href="https://cls-lms.com/"><button class="button1"></button></a>
+      <a href="https://cls-lms.com/announcements"><button class="button2">АНОНСЫ</button></a>
+      <a href="https://cls-lms.com/portal-administrator"><button class="button3">КАК ЭТО РАБОТАЕТ?</button></a>
+      <a href="https://cls-lms.com/recommended-courses"><button class="button4">РЕКОМЕНДУЕМЫЕ КУРСЫ</button></a>
+      <a href="https://cls-lms.com/tariffs"><button class="button5">ТАРИФЫ И ОПЛАТА</button></a>
+      <a href="https://cls-lms.com/news/cls-lmscom-news"><button class="button6">ИНФОРМАЦИОННЫЙ БЛОГ</button></a>
+      <a href="https://cls-lms.com/contacts"><button class="button7">О НАС</button></a>
+         
+    
+  </div>
+  <div id="menu">
+    <div class="left">
+      <a href="https://cls-lms.com/dashboard"><img src="1.png"/></a>
+      <a href="https://cls-lms.com/my-trainings"><img src="2.png"/></a>
+      <a href="https://cls-lms.com/my-trainings2"><img src="3.png"/></a>
+      <a href="https://cls-lms.com/forum"><img src="4.png"/></a>
+      <a href="https://cls-lms.com/opigno-calendar"><img src="5.png"/></a>
+      <a href="https://cls-lms.com/messages"><img src="6.png"/></a>
+      <a href="https://cls-lms.com/my-achievements"><img src="7.png"/></a>
+      <a href="https://cls-lms.com/nashi-vebinary"><img src="8.png"/></a>
+      <a href="https://cls-lms.com/admin/opigno-statistics"><img src="9.png"/></a>
+      <a href="https://cls-lms.com/my_refferals"><img src="10.png"/></a>
+      <a href="https://cls-lms.com/user_search_ap"><img src="11.png"/></a>
+      </div>
+  </div>
+  <div id="content">
+    <b style="font-size: 50px; color:#000; letter-spacing: 5px;">Описание</b>
+    <hr style="size: 5px; background: #000;">
+    <br>
+    <p>Перевод работы в онлайн-формат и создание  единого офисного  онлайн-пространства на основе CLS STREAM SERVICE</p><br>
+    <img src="qwerty1.gif" alt="kartinka" width="220" height="150" style="padding-bottom: 20px;" />
+    <br>
+    <p>Новая реальность все больше заставляет  руководителей и собственников бизнеса переводить своих сотрудников в онлайн-формат. 
+    Это происходит по разным причинам : в связи с географическим масштабированием  компании, 
+    из-за пандемических факторов, за ненадобностью аренды офисных помещений и т.д.</p>
+    <br>
+    <br>
+    <p>В то же время от качества, скорости коммуникации и обмена информацией зависит быстрота принятия решений, 
+    которая так необходима в современном бизнесе для его прибыльности и эффективности. Однако имеющийся опыт работы многих компаний 
+    c переходом даже части сотрудников на удаленный формат,   к сожалению, свидетельствует о снижении эффективности 
+    работы и потери производительности труда на 15-45%.</p>
+    <br>
+    <hr>
+    <p>Это происходит по ряду причин. Помимо отсутствия внедренных корпоративных механизмов 
+    информационной автоматизации бизнеса, 
+    самые значимые из них:</p>
+    <br>
+    <br>
+    <ul>
+      <il> потребность у сотрудников и руководителей постоянно набирать друг друга по телефону, скайпу, различным голосовым мессенджерам, отсутствие  возможности мгновенно передавать и получать актуальную информацию;</il><br>
+      <br>
+      <il> потеря времени на переписку в разношерстных корпоративных чатах и мессенджерах;</il><br>
+      <br>
+      <il> общее замедление циркуляции актуальной информации в организации для руководителей среднего и высшего звена, ведущая к нарушению одного из главных принципов менеджмента, который заключается  в принятии решений, основанных на фактах.</il>
+      <br>
+  </ul>
+<br>
+<br>
+<br>
+<p>Устранение всех этих потерь и проблем призвано обеспечить наше техническое телекоммуникационное решение в виде создания единого офисного онлайн-пространства (онлайн-эфира) на основе платформы для проведения онлайн-конференций CLS Stream Service.</p>
+<br>
+<br>
+<p>Эта услуга предполагает быстрый перевод работы сотрудников офиса в онлайн-формат без потери качества и скорости  коммуникации между сотрудниками,  работающими в офисе и удаленно в реальном режиме времени   с помощью создания  единого телекоммуникационного онлайн-эфира .</p>
+<br>
+<hr>
+<p>Услуги :</p>
+<br>
+<br>
+<ol>
+<il> "Централизованный офис "  ("Онлайн-офис Open Space" ) - концепция единого рабочего офисного онлайн-пространства, когда имеется кадровое "ядро"  компании, состоящее из управленческого персонала и ключевых сотрудников в физическом офисном помещении, а часть сотрудников работает удаленно.</il><br>
+<br>
+<il> "Удалённый офис" - концепция  единого рабочего офисного онлайн-пространства (онлайн-эфира), когда отсутствует физический офис и каждый сотрудник работает удаленно.</il>
+<br>
+</ol>
+<br> 
+<br>
+<p>Особенности работы и технические возможности:</p>
+<br>
+<br>
+<ol>
+<il>1. Централизованный офис в рамках одной или нескольких одновременно запущенных онлайн конференций имеет возможность быть на спикер и видеосвязи с сотрудниками, находящимся в любой географической  точке мира в режиме онлайн в течение всего рабочего  времени (до  24 часов в сутки)</il><br>
+<br>
+<il>2. Все удаленные сотрудники с высоким уровнем качества могут слышать ( видеть ) все, что происходит в офисном помещении в онлайн-формате.</il><br>
+<br>
+<il>3. Любой сотрудник, находящийся в офисном помещении,  имеет  возможность не покидая пределов рабочего места без индивидуального подключения к конференции в онлайн-режиме общаться с любым удаленным сотрудником, а так же слышать любого удаленного  сотрудника со своего рабочего места. </il><br>
+<br>
+<il>4. С помощью предлагаемой Телекоммуникационной Интернет технологии с использованием Cyber Learn Systems, руководитель может заменить дорогостоящую замкнутую внутреннюю спикер-связь компании  на единое эфирное онлайн пространство в режиме реального времени с возможностью мгновенного доступа и обратной связи  с любым сотрудником, находящегося как в офисе, так и удаленно.</il><br>
+<br>
+</ol>
+<br>
+<hr>
+<p>Технические возможности и продукты  CLS Stream Service:</p>
+<br>
+<br>
+<ul>
+<il> Видео и аудиоконференции в HD</il><br>
+<br>
+<il> Интерактивная доска, проведение презентаций  и совместное использования рабочего пространства</il><br>
+<br>
+<il> Режим демонстрации экрана, совместный просмотр видео и совместное использование файлов с внешних источников</il><br>
+<br>
+<il> Сохранение записей конференций для просмотра или скачивания</il><br>
+<br>
+<il> Управление ролями участников веб-конференций</il><br>
+<br>
+<il> Создание заметок, приватные и общие чаты в рамках одной веб-конференции с возможностью их сохранения</il><br>
+<br>
+<il> Создание приватных конференц - комнат в рамках одной общей веб-конференции</il><br>
+<br>
+<il> Обмен файлами в ходе веб-конференции и создание собственной файловой системы в индивидуальном портале пользователя с предоставлением доступа для всех пользователей портала</il><br>
+<br>
+</ul>
+<br>
+<hr>
+<p>План работ:</p>
+<br>
+<br>
+<ul>
+<li> Определение физической и IT - инфраструктуры единого рабочего онлайн-пространства компании (централизованное или  децентрализованное подключение) </li><br>
+<br>
+<li> Определение тарификации подключения  по    CLS Stream Service (cls-stream.com )</li><br>
+<br>
+<li> Подбор оборудования для создания единого офисного онлайн-пространства </li><br>
+<br>
+<li> Установка и настройка оборудования в офисе ( активный микрофон, компьютер, монитор / жк-телевизор, веб-камера)</li><br>
+<br>
+</ul>
+<br>
+<hr>
+<p>Требования и ограничения:</p>
+<ul>
+<il> Удаленный сотрудник должен находиться на своем удаленном рабочем месте либо в помещении с устройством , подключенным к онлайн-конференции .</il><br>
+<br>
+<il> Площадь офисного  помещения "ядра" компании для необходимого качества работы и качественной слышимости удаленным сотрудникам речи сотрудников центрального офиса должно не превышать 100 квадратных метров. </il><br>
+<br>
+<il> Удаленные сотрудники должны  работать через аудио-гарнитуру (наушники и микрофон) либо с оптимально настроенной громкостью динамиков в аудиоколонках, а также правильно разделенными микрофоном и колонками ( работающие колонки могут  создавать чувствительный для качества связи уровень эхолокации) .</il><br>
+<br>
+</ul>
+<br>
+<br>
+<p>Необходимая техника и устройства в офисе компании: </p>
+<br>
+<br>
+<ul>
+<il> В офисе компании: ЖК-телевизор ( с технической возможностьью доступа в Интернет)  или монитор, системный блок с установленной операционной системой (Ubuntu, Linux, Windows) активный микрофон, web-камера ( по желанию). </il><br>
+<br>
+<il> У удаленного сотрудника : стационарный компьютер / ноутбук / планшет / смартфон , гарнитура : наушники (аудиоколонки) и микрофон, веб-камера.</il><br>
+<br>
+</ul>
+<br>
+<hr>
+<p>Стоимость :</p>
+<br>
+<br>
+<ul>
+<il> Подбор оборудования и монтаж. Базовая стоимость услуги по подбору оборудования, монтажу и помощи в оптимальной настройке для участия в корпоративных онлайн-эфирах (без учета стоимости необходимого оборудования) для резидентов РБ составляет:  1500 BYN. Для неризидентов РБ - оговаривается дополнительно. Ориентировочная стоимость базового набора оборудования (необходимого и достаточного для работы)   централизованного офиса для создания одного терминала подключения - от 350 USD .</il><br>
+<br>
+<il> Стоимость использования CLS Stream Service в рамках "Централизованного онлайн-офиса" рассчитывается исходя из количества подключаемых участников корпоративных онлайн-эфиров  и стандартных часов работы компании.  Ориентировочная стоимость использования платформы проведения онлайн конференций на 10 подключенных участников со стандартными часами работы эквивалентна тарифу "Базовый" </il><br>
+<br>
+</ul>
+<br>
+<br>
+<br>
+<center><img class="aq" src="img2.png" alt="Инструкция" width="700" height="550" style="border: #000;"/></center>
+<br>
+<br>
+<br>
+<center><a href="https://cls-lms.com/zapros-na-perevod-obucheniya-v-elektronnyy-onlayn-format"><button class="button8">ОСТАВИТЬ ЗАЯВКУ</button></a></center>
+<br>
+<br>
+<br>
+<p>Для создания  единого онлайн-пространства в рамках  "Удалённого офиса" подбор и монтаж оборудования осуществляется по запросу. Стоимость использования CLS Stream Service рассчитывается исходя из количества подключаемых участников корпоративных онлайн-эфиров  и стандартных часов работы компании.  Ориентировочная стоимость использования платформы проведения онлайн конференций на 10 подключенных участников со стандартными часами работы так же эквивалентна тарифу "Базовый" </p>
+<br>
+<br>
+<br>
+<p>Технические требования для корректной работы  CLS Stream Service : <a href="https://www.cls-lms.com/k...roystvam-dlya-uchastiya-v"> ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ</a></p>
+<br>
+<br>
+<br>     
+  </div>
+  <div id="bottom">
+    <div style="margin-top: 0px;"><a href="https://cls-lms.com/Public-contract-for-portal-administrators" style="color: #fff;"><p style="font-size: .4em; color: #fff;">Договор оферты для создания индивидуальных порталов обучения</p></a></div>
+    <div style="margin-top: -17px; margin-left: 340px;"><a href="https://cls-lms.com/public-offer-contract-education" style="color: #fff;"><p style="font-size: .4em; color: #fff;">Договор оферты для учащихся CLS</p></a></div>
+    <div style="margin-top: -20px; margin-left: 530px;"><a href="https://cls-lms.com/privacy-policy" style="color: #fff;"><p style="font-size: .4em; color: #fff;">Политика конфиденциальности</p></a></div>
+    <div style="margin-top: -20px; margin-left: 700px;"><a href="https://cls-lms.com/terms-of-use" style="color: #fff;"><p style="font-size: .4em; color: #fff;">Правила использования Сервиса</p></a></div>
+    <div style="margin-top: -20px; margin-left: 880px;"><a href="https://www.cls-lms.com/support" style="color: #fff;"><p style="font-size: .4em; color: #fff;">СЛУЖБА ПОДДЕРЖКИ</p></a></div>
+    <div style="margin-left: 1100px; margin-top: -60px;">
+      <a href="https://www.youtube.com/channel/UCbGYp9_bVmZ8EcTo9KjgIwA"><img src="https://cls-lms.com/profiles/opigno_lms/themes/platon/img/youtube-icon.svg" width="30px" height="30px"/></a>
+      <a href="https://www.instagram.com/cyberlearnsystems/"><img src="https://cls-lms.com/profiles/opigno_lms/themes/platon/img/instagram-icon.svg" width="30px" height="30px"/></a>
+      <a href="https://vk.com/public197651216"><img src="https://cls-lms.com/profiles/opigno_lms/themes/platon/img/vk-icon.svg" width="30px" height="30px"/></a>
+      <a href="https://www.facebook.com/Cyber-Learn-Systems-101473568179592/"><img src="https://cls-lms.com/profiles/opigno_lms/themes/platon/img/facebook-icon.svg" width="30px" height="30px"/></a>
+    </div>
+    <br>
+    <div style="margin-top: 30px;">
+      <p class="qq" style="font-size: .5em; color: #fff;">ООО «БелПроектКонсалтинг». УНП 190918566. Свидетельство о регистрации №190918566, выдано 29 ноября 2007 г. Минским горисполкомом. Республика Беларусь, 220036, г. Минск, 3-й Загородный переулок, д.4В, каб. 209 . 
+        <br><br>© 2019 Cyber Learn Systems LLC</p>
+    </div>
+  </div>
+ </body>
+</html>
